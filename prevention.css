@@ -1,0 +1,76 @@
+body {
+	background-image: url(flu.jpg);
+	background-attachment: fixed;
+	background-position:center bottom;
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+#title {
+	color: white;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	text-shadow: 4px 4px 4px black;
+	font-size:2em;
+	letter-spacing:.2em;
+	text-align: center;
+	border: 5px solid white;
+	width:1000px;
+	margin:auto;
+}
+
+.box {
+	display:inline-block;
+	border:black 2px solid;
+	width: 30%;
+	text-align: center;
+	margin: auto 10px;
+	padding-bottom: 30px;
+	background: rgba(255,255,255,.2);
+}
+
+#top_nav{
+	text-align:right;
+}
+
+.top_nav_item:hover {
+	color: blue;
+	font-size: 1.1em; 
+}
+
+.top_nav_item {
+	margin:20px;
+ 	color: white;
+ 	font-size: 1.2em;
+ 	text-decoration:none;
+}
+
+#current_page {
+	border-bottom: 3px solid yellow;
+}
+
+img {
+	height:300px;
+	width:300px;
+	object-fit:cover;
+}
+
+.box2 {	
+	display:inline-block;
+	border:black 2px solid;
+	width: 	30%;
+	text-align: center;
+	margin: auto 8px;
+	padding-bottom: .5em;
+	background: rgba(255,255,255,.2);
+}
+
+#box3 {
+	display: inline-block;
+	border: 2px black solid;
+	width: 300px;
+	text-align: center;
+	margin: auto 10px;
+	padding-top: .5em;
+	background: rgba(255,255,255,.2);
+}
